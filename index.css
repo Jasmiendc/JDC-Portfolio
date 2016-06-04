@@ -1,0 +1,343 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: hsl(0,0%,15%);
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: hsla(0,0%,70%,.5);
+}
+
+nav{
+  font-variant: small-caps;
+}
+
+a {
+  color: hsl(0,0%,18%);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: hsl(0,0%,50%);
+}
+
+iframe {
+  border: none;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  z-index: auto;
+}
+.balk {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  display: block;
+  padding: 10px 15px 5px 20px;
+  background-color: hsla(0,0%,100%,0.9);
+}
+
+.JDC{
+  font-weight: bold;
+  font-size: 20px;
+  color: hsl(197,81%,30%);
+}
+
+nav{
+  font-variant: small-caps;
+  display: block;
+  float: right;
+  height: 100px;
+  width: 100px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* Bij klikken komt lijst van menu tevoorschijn (js)*/
+
+.menuIcoon{
+  position: relative;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  border: none;
+  background-color:  hsla(0,0%,100%,0);
+  height: 30px;
+}
+
+.welkomstkader{
+  height: 100px;
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 510px;
+  border: 8px double hsla(0,2%,40%,.8);
+}
+
+h1{
+  margin-top: 20px;
+  font-size:2.2em;
+  color: hsla(0,2%,40%,.8);
+  font-variant: small-caps;
+}
+
+.homeFoto{
+  width: 100%;
+  margin-top: -150px;
+}
+
+h1,h2,h3,h4,h5 {
+  letter-spacing: 0.8px;
+  font-family: 'Roboto Slab', serif;
+}
+p, a, td, img {
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  line-height: 34px;
+  font-weight: lighter;
+}
+
+h3{  font-weight: bold;
+  font-size: 20px;
+  color: hsl(197,81%,30%);
+  margin-top: 80px;
+  text-align: center;
+}
+
+hr{
+  border: 0;
+  height: 0;
+  width: 500px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+  align-self: center;
+}
+
+.servLijn{
+  margin-left: 400px;
+  margin-top: 120px;
+}
+
+.aboutFoto{
+  width: 20%;
+  margin-top: 40px;
+  margin-left: 350px;
+}
+
+.aboutLijst{
+  float: right;
+  margin-right: 260px;
+  margin-top: 120px;
+}
+
+.title, .break{
+  font-weight: bold;
+}
+
+.break{
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.webFoto, .designFoto, .photoFoto{
+  width: 3%;
+}
+
+.webFoto{
+  margin-left: 200px;
+  margin-top: 60px;
+}
+
+.designFoto{
+  position: absolute;
+  margin-left: 620px;
+  margin-top: -55px;
+}
+
+.photoFoto{
+  float: right;
+  margin-top: -160px;
+  margin-right: 200px;
+}
+
+.uitleg1, .uitleg2, .uitleg3{
+  width: 15%;
+}
+
+.titeltje1{
+  margin-left: 125px;
+  margin-top: 20px;
+}
+
+.uitleg1{
+  margin-left: 125px;
+  text-align: center;
+}
+
+.titeltje2{
+  margin-left: 575px;
+  margin-top: -130px;
+}
+
+.uitleg2{
+  margin-left: 535px;
+  text-align: center;
+}
+
+.titeltje3{
+  float: right;
+  margin-top: -100px;
+  margin-right: 120px;
+}
+
+.uitleg3{
+  float: right;
+  text-align: center;
+  margin-right: 130px;
+  margin-top: -65px;
+}
+
+.reclame, .mode, .fotografie, .css, .html, .logo, .typografie, .bewerken, .flyer, .verpakking{
+  height: 180px;
+  opacity: 0.7;
+-webkit-filter: grayscale(70%);
+}
+
+.reclame{
+  margin-left: 100px;
+}
+
+.logo{
+  margin-left: 40px;
+}
+
+.reclame:hover, .mode:hover, .fotografie:hover, .css:hover, .html:hover, .logo:hover, .typografie:hover, .bewerken:hover, .flyer:hover, .verpakking:hover{
+  zoom: 200%;
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+}
+
+.cvFoto{
+  width: 30%;
+  margin-left: 450px;
+  margin-top: 30px;
+}
+
+.Inspiration{
+  text-align: center;
+}
+
+.inspiratieLijst1, .inspiratieLijst2, .inspiratieLijst3, .inspiratieLijst4, .inspiratieLijst5{
+  width: 18%;
+  position: absolute;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.fotosinspiratie{
+  opacity: 0.5;
+}
+
+.fotosinspiratie:hover{
+  opacity: 1;
+}
+
+.textinspiratie{
+  font-weight: bold;
+}
+
+.inspiratieLijst1{
+  margin-left: 20px;
+}
+
+.inspiratieLijst2{
+  margin-left: 270px;
+}
+
+.inspiratieLijst3{
+  margin-left: 520px;
+}
+
+.inspiratieLijst4{
+  margin-left: 770px;
+}
+
+.inspiratieLijst5{
+  margin-left: 1020px;
+}
+
+.inhoudContact{
+  text-align: center;
+}
+
+.inspiratiEind{
+  margin-top: 270px;
+}
+
+.name{
+  margin-top: 50px;
+}
+
+.naam, .mail{
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: darkgrey;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px hsla(0,0%,32%,.4);
+}
+
+.tekst{
+  width: 300px;
+  height: 100px;
+  border: none;
+  background-color: darkgrey;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px hsla(0,0%,32%,.4);
+
+}
+
+.contactMe{
+  padding: 20px;
+  width: 100px;
+  font-weight: bold;
+  border: 1px solid grey;
+  border-radius: 15px;
+  box-shadow: 15px 10px 20px hsla(0,0%,32%,.5);
+}
+
+.linkedin, .pinterest{
+  margin-top: 30px;
+  width: 50%;
+  text-align: center;
+  background-color: hsla(197,81%,30%, 0.8);
+  height: 40px;
+  padding-top: 10px;
+}
+
+.linkedin{
+  float: left;
+}
+
+.pinterest{
+  float: right;
+}
+
+.linkedin:hover, .pinterest:hover{
+  background-color: darkgrey;
+}
+
+.pinterestText, .linkedinText{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
